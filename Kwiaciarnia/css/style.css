@@ -93,10 +93,12 @@ body header .logo h1 {
 }
 
 body .cytat {
+  background-color: #b1cab1;
   text-align: right;
-  padding: 8vw 15vw;
+  padding: 8vw 12vw;
   width: 100%;
   font-family: 'Rajdhani', sans-serif;
+  border-right: solid 1vw #4d2629;
 }
 
 body .cytat h2 {
@@ -111,5 +113,15 @@ body .container {
 
 body .container aside {
   border-right: solid 1vw #ac9201;
+}
+
+body .container .onas {
+  color: #4d2629;
+  padding: 2vw 5vw;
+}
+
+body .container .onas h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2vw;
 }
 /*# sourceMappingURL=style.css.map */

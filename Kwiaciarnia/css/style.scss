@@ -62,21 +62,29 @@ body{
       } 
   }
   .cytat{
+    background-color:rgb(177, 202, 177);
     text-align: right;
-    padding:8vw 15vw;
+    padding:8vw 12vw;
     width:100%;
     font-family: 'Rajdhani', sans-serif;
+    // border-top:solid 1vw rgb(77, 38, 41);
+    border-right:solid 1vw rgb(77, 38, 41);
     h2{
       font-size: 2vw;
     }
   }
   .container{
-    // margin-top:5vw;
     display:flex;
-        // align-items:center;
-        // justify-content: center;
     aside{
       border-right:solid 1vw rgb(172, 146, 1);
+    }
+    .onas{
+      color:rgb(77, 38, 41);
+      padding:2vw 5vw;
+      h2{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 2vw;
+      }
     }
   }
 }
