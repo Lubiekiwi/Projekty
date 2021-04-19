@@ -1,0 +1,104 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #dfe9df;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+
+body nav {
+  background-color: #dfe9df;
+  border-bottom: solid 5px #ac9201;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  padding-right: 5vw;
+  z-index: 2;
+  height: 4vw;
+}
+
+body nav .mainNavi {
+  padding: 1vw;
+  text-decoration: none;
+  color: #2e352e;
+}
+
+body nav .mainNavi:hover {
+  text-shadow: 1px 1px 1px #b0cab0;
+  -webkit-transition: font-size 0.2s linear;
+  transition: font-size 0.2s linear;
+  font-size: 1.1em;
+}
+
+body header {
+  background-image: url(img/tlo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 50vw;
+  -webkit-filter: contrast(80%) saturate(80%);
+          filter: contrast(80%) saturate(80%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header .bazgrol {
+  width: 40vw;
+  border-radius: 10px;
+}
+
+body header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+}
+
+body header .logo .logo1 {
+  width: 20vw;
+}
+
+body header .logo h1 {
+  font-size: 2vw;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container aside {
+  border-right: solid 1vw #ac9201;
+}
+/*# sourceMappingURL=style.css.map */
