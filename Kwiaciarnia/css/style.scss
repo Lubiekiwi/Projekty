@@ -48,11 +48,9 @@ body{
         border-radius:10px;
       }
       .logo{
-        // color:#fff;
         display:flex;
         align-items:center;
         justify-content: center;
-        // margin-top:10vw;
         position:absolute;
         .logo1{
           width:20vw;
@@ -62,6 +60,15 @@ body{
           font-family: 'Rajdhani', sans-serif;
         }
       } 
+  }
+  .cytat{
+    text-align: right;
+    padding:8vw 15vw;
+    width:100%;
+    font-family: 'Rajdhani', sans-serif;
+    h2{
+      font-size: 2vw;
+    }
   }
   .container{
     // margin-top:5vw;

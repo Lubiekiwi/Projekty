@@ -92,6 +92,17 @@ body header .logo h1 {
   font-family: 'Rajdhani', sans-serif;
 }
 
+body .cytat {
+  text-align: right;
+  padding: 8vw 15vw;
+  width: 100%;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+body .cytat h2 {
+  font-size: 2vw;
+}
+
 body .container {
   display: -webkit-box;
   display: -ms-flexbox;
