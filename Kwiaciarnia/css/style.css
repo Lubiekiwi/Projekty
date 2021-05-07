@@ -18,32 +18,56 @@ body nav {
   position: sticky;
   top: 0;
   left: 0;
+  width: 100%;
+  z-index: 2;
+  height: 4vw;
+}
+
+body nav .mainNavi {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  width: 100%;
-  padding-right: 5vw;
-  z-index: 2;
-  height: 4vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 60vw;
+  position: fixed;
+  top: 4px;
+  right: 5vw;
 }
 
-body nav .mainNavi {
+body nav .mainNavi .mainNaviContent {
   padding: 1vw;
   text-decoration: none;
   color: #2e352e;
 }
 
-body nav .mainNavi:hover {
+body nav .mainNavi .mainNaviContent:hover {
   text-shadow: 1px 1px 1px #b0cab0;
   -webkit-transition: font-size 0.2s linear;
   transition: font-size 0.2s linear;
   font-size: 1.1em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+body nav .mainNavi .mainNaviIcon {
+  padding: 1vw;
+  text-decoration: none;
+  color: #2e352e;
+}
+
+body nav .mainNavi .mainNaviIcon:hover {
+  text-shadow: 1px 1px 1px #b0cab0;
+  -webkit-transition: font-size 0.2s linear;
+  transition: font-size 0.2s linear;
+  font-size: 1.1em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 body header {
@@ -106,10 +130,25 @@ body .cytat h2 {
   color: #000;
 }
 
+body .divcarousel {
+  height: 20vw;
+  border-bottom: solid 1vw #ac9201;
+  width: 100%;
+}
+
+body .divcarousel .carousel {
+  width: 25vw;
+}
+
+body .divcarousel .carousel img {
+  width: 20px;
+}
+
 body .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
 }
 
 body .container aside {
