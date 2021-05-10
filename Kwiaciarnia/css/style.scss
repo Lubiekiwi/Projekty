@@ -97,30 +97,49 @@ body{
   }
   .divcarousel{
     height:20vw;
-    // border-top:solid 1vw rgb(77, 38, 41);
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
     border-bottom:solid 1vw rgb(172, 146, 1);
     width:100%;
     .carousel{
-      width:25vw;
+      width:25%;
 
       img{
         width:20px;
       }
-    }
-  }
-  .container{
-    display:flex;
-    width:100%;
-    aside{
-      border-right:solid 1vw rgb(172, 146, 1);
-    }
-    .onas{
-      color:rgb(77, 38, 41);
-      padding:2vw 5vw;
       h2{
         font-family: 'Rajdhani', sans-serif;
         font-size: 2vw;
       }
+      .carousel-caption{
+        background-color: rgb(209, 209, 209);
+        color:#000;
+        opacity:.8;
+        h2{
+          font-family: 'Rajdhani', sans-serif;
+          font-size: 2vw;
+        }
+      }
     }
   }
+    .container{
+      display:flex;
+      width:100%;
+      margin:0 !important;
+      padding:0;
+      aside{
+        border-right:solid 1vw rgb(172, 146, 1);
+      }
+      .onas{
+        color:rgb(77, 38, 41);
+        padding:2vw 5vw;
+        width:fit-content;
+        h2{
+          font-family: 'Rajdhani', sans-serif;
+          font-size: 2vw;
+        }
+      }
+    }
+  
 }

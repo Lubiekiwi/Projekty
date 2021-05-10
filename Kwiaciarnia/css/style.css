@@ -132,16 +132,40 @@ body .cytat h2 {
 
 body .divcarousel {
   height: 20vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-bottom: solid 1vw #ac9201;
   width: 100%;
 }
 
 body .divcarousel .carousel {
-  width: 25vw;
+  width: 25%;
 }
 
 body .divcarousel .carousel img {
   width: 20px;
+}
+
+body .divcarousel .carousel h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2vw;
+}
+
+body .divcarousel .carousel .carousel-caption {
+  background-color: #d1d1d1;
+  color: #000;
+  opacity: .8;
+}
+
+body .divcarousel .carousel .carousel-caption h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2vw;
 }
 
 body .container {
@@ -149,6 +173,8 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  margin: 0 !important;
+  padding: 0;
 }
 
 body .container aside {
@@ -158,6 +184,9 @@ body .container aside {
 body .container .onas {
   color: #4d2629;
   padding: 2vw 5vw;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 body .container .onas h2 {
