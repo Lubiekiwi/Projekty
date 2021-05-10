@@ -21,34 +21,23 @@ body{
     .mainNavi{
       display:flex;
       align-items: center;
-      justify-content:space-around;
+      // justify-content:space-around;
       width: 60vw;
       position:fixed;
       top:4px;
       right:5vw;
+      flex-grow:1;
 
       .mainNaviContent{
         padding:1vw;
         text-decoration: none;
         color:rgb(46, 53, 46);
-        // width:16%;
+        // width:6wv
       }
       .mainNaviContent:hover{
-        text-shadow: 1px 1px 1px rgb(176, 202, 176);
+        text-shadow: 1px 1px 1px rgb(120, 138, 120);
         transition: font-size 0.2s linear;
-        font-size:1.1em;
-        width: fit-content;
-      }
-      .mainNaviIcon{
-        padding:1vw;
-        text-decoration: none;
-        color:rgb(46, 53, 46);
-        // width:5px;
-      }
-      .mainNaviIcon:hover{
-        text-shadow: 1px 1px 1px rgb(176, 202, 176);
-        transition: font-size 0.2s linear;
-        font-size:1.1em;
+        background-color: rgb(177, 202, 177);
         width: fit-content;
       }
     }

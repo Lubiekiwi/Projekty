@@ -30,12 +30,13 @@ body nav .mainNavi {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   width: 60vw;
   position: fixed;
   top: 4px;
   right: 5vw;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 body nav .mainNavi .mainNaviContent {
@@ -45,26 +46,10 @@ body nav .mainNavi .mainNaviContent {
 }
 
 body nav .mainNavi .mainNaviContent:hover {
-  text-shadow: 1px 1px 1px #b0cab0;
+  text-shadow: 1px 1px 1px #788a78;
   -webkit-transition: font-size 0.2s linear;
   transition: font-size 0.2s linear;
-  font-size: 1.1em;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-body nav .mainNavi .mainNaviIcon {
-  padding: 1vw;
-  text-decoration: none;
-  color: #2e352e;
-}
-
-body nav .mainNavi .mainNaviIcon:hover {
-  text-shadow: 1px 1px 1px #b0cab0;
-  -webkit-transition: font-size 0.2s linear;
-  transition: font-size 0.2s linear;
-  font-size: 1.1em;
+  background-color: #b1cab1;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
